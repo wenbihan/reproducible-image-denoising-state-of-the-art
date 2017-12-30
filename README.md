@@ -3,26 +3,27 @@ Collection of popular and reproducible image denoising works.
 
 Criteria: works must have codes available, and the reproducible results demonstrate state-of-the-art performances.
 
-This collection is inspired by the [summary by flyywh] (https://github.com/flyywh/Image-Denoising-State-of-the-art)
+This collection is inspired by the [[summary by flyywh]](https://github.com/flyywh/Image-Denoising-State-of-the-art)
 
 
 ## Denoising Algorithms
 #### Filter
  * NLM [[Web]](http://imagej.net/Non_Local_Means_Denoise) [[Code]](https://github.com/thorstenwagner/ij-nl-means) [[PDF]](http://www.cs.tut.fi/~foi/GCF-BM3D/SPIE08_deblurring.pdf)
-   * A non-local algorithm for image denoising (Computer Vision and Pattern Recognition (CVPR’05)), Buades et al.
-
+   * A non-local algorithm for image denoising (CVPR 05), Buades et al.
  * BD3M [[Web]](http://www.cs.tut.fi/~foi/GCF-BM3D/) [[Code]](http://www.cs.tut.fi/~foi/GCF-BM3D/BM3D.zip) [[PDF]](http://www.cs.tut.fi/~foi/GCF-BM3D/SPIE08_deblurring.pdf)
    * Image restoration by sparse 3D transform-domain collaborative filtering (SPIE Electronic Imaging 2008), Dabov et al.
 
 #### Sparse Coding
  * KSVD [[Web]](http://www.cs.technion.ac.il/~ronrubin/software.html) [[Code]](https://github.com/jbhuang0604/SelfSimSR/tree/master/Lib/KSVD) [[PDF]](http://www.egr.msu.edu/~aviyente/elad06.pdf)
-   * Image Denoising Via Sparse and Redundant Representations Over Learned Dictionaries (TIP2006), Elad et al.
- * NCSR [[Web]](http://www4.comp.polyu.edu.hk/~cslzhang/NCSR.htm) [[Code]](http://www4.comp.polyu.edu.hk/~cslzhang/code/NCSR.rar) [[PDF]](http://www4.comp.polyu.edu.hk/~cslzhang/paper/NCSR_TIP_final.pdf)
-   * Nonlocally Centralized Sparse Representation for Image Restoration (TIP2012), Dong et al.
+   * Image Denoising Via Sparse and Redundant Representations Over Learned Dictionaries (TIP 2006), Elad et al.
  * LSSC [[Web]](https://lear.inrialpes.fr/people/mairal/) [[Code]] (https://lear.inrialpes.fr/people/mairal/resources/denoise_ICCV09.tar.gz) [[PDF]](http://www.di.ens.fr/~fbach/iccv09_mairal.pdf)
-   * Non-local Sparse Models for Image Restoration (ICCV2009), Mairal et al.
+   * Non-local Sparse Models for Image Restoration (ICCV 2009), Mairal et al.
+ * NCSR [[Web]](http://www4.comp.polyu.edu.hk/~cslzhang/NCSR.htm) [[Code]](http://www4.comp.polyu.edu.hk/~cslzhang/code/NCSR.rar) [[PDF]](http://www4.comp.polyu.edu.hk/~cslzhang/paper/NCSR_TIP_final.pdf)
+   * Nonlocally Centralized Sparse Representation for Image Restoration (TIP 2012), Dong et al.  
+ * OCTOBOS [[Web]](http://transformlearning.csl.illinois.edu/projects/) [[Code]](https://github.com/wenbihan/octobos_IJCV2016) [[PDF]](http://transformlearning.csl.illinois.edu/assets/Sai/JournalPapers/SaiBihanIJCV2014OCTOBOS.pdf)
+   * Structured Overcomplete Sparsifying Transform Learning with Convergence Guarantees and Applications (IJCV 2015), Wen et al. 
  * GSR [[Web]](https://jianzhang.tech/projects/GSR/) [[Code]](http://csjianzhang.github.io/codes/GSR_Code_Package_3.0.zip) [[PDF]](http://csjianzhang.github.io/papers/TIP2014_single.pdf)
-   * Group-based Sparse Representation for Image Restoration (TIP2014), Zhang et al.
+   * Group-based Sparse Representation for Image Restoration (TIP 2014), Zhang et al.
   
 #### Effective Prior
  * EPLL [[Web]](https://people.csail.mit.edu/danielzoran/) [[Code]](https://people.csail.mit.edu/danielzoran/epllcode.zip) [[PDF]](http://people.ee.duke.edu/~lcarin/EPLICCVCameraReady.pdf)
@@ -35,8 +36,8 @@ This collection is inspired by the [summary by flyywh] (https://github.com/flyyw
    * Nonlocal image restoration with bilateral variance estimation: a low-rank approach (TIP2013), Dong et al.
  * WNNM [[Web]](https://sites.google.com/site/shuhanggu/home) [[Code]](http://www4.comp.polyu.edu.hk/~cslzhang/code/WNNM_code.zip) [[PDF]](https://pdfs.semanticscholar.org/6d55/6272625b672ba54b5ab3d9e6474088a4b78f.pdf)
    * Weighted Nuclear Norm Minimization with Application to Image Denoising (CVPR2014), Gu et al.
- * Multi-channel Weighted Nuclear Norm [[PDF]](https://arxiv.org/pdf/1705.09912.pdf)
-   * Multi-channel Weighted Nuclear Norm Minimization for Real Color Image Denoising (Arxiv 2017), Jun Xu, Lei Zhang, David Zhang, and Xiangchu Feng.
+ * Multi-channel Weighted Nuclear Norm [[Web]](http://www4.comp.polyu.edu.hk/~csjunxu/Publications.html) [[Code]](http://www4.comp.polyu.edu.hk/~csjunxu/code/MCWNNM.zip) [[PDF]](http://www4.comp.polyu.edu.hk/~csjunxu/paper/MCWNNM.pdf)
+   * Multi-channel Weighted Nuclear Norm Minimization for Real Color Image Denoising (Arxiv 2017), Xu et al.
    
 #### Deep Learning
  * TNRD [[Web]](http://www.icg.tugraz.at/Members/Chenyunjin/about-yunjin-chen) [[Code]](https://www.dropbox.com/s/8j6b880m6ddxtee/TNRD-Codes.zip?dl=0) [[PDF]](https://arxiv.org/pdf/1508.02848.pdf)
