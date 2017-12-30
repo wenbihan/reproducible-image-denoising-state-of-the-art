@@ -10,7 +10,7 @@ This collection is inspired by the [summary by flyywh](https://github.com/flyywh
 #### Filter
  * NLM [[Web]](http://imagej.net/Non_Local_Means_Denoise) [[Code]](https://github.com/thorstenwagner/ij-nl-means) [[PDF]](http://www.cs.tut.fi/~foi/GCF-BM3D/SPIE08_deblurring.pdf)
    * A non-local algorithm for image denoising (CVPR 05), Buades et al.
- * BD3M [[Web]](http://www.cs.tut.fi/~foi/GCF-BM3D/) [[Code]](http://www.cs.tut.fi/~foi/GCF-BM3D/BM3D.zip) [[PDF]](http://www.cs.tut.fi/~foi/GCF-BM3D/SPIE08_deblurring.pdf)
+ * BM3D [[Web]](http://www.cs.tut.fi/~foi/GCF-BM3D/) [[Code]](http://www.cs.tut.fi/~foi/GCF-BM3D/BM3D.zip) [[PDF]](http://www.cs.tut.fi/~foi/GCF-BM3D/SPIE08_deblurring.pdf)
    * Image restoration by sparse 3D transform-domain collaborative filtering (SPIE Electronic Imaging 2008), Dabov et al.
 
 #### Sparse Coding
@@ -56,5 +56,5 @@ This collection is inspired by the [summary by flyywh](https://github.com/flyywh
    * When Image Denoising Meets High-Level Vision Tasks: A Deep Learning Approach (Arxiv2017), Ding Liu, Bihan Wen, Xianming Liu, Thomas S. Huang.
 
 #### Benchmark
- * Benchmark [[Web]](https://noise.visinf.tu-darmstadt.de/) [[Data]](https://noise.visinf.tu-darmstadt.de/downloads/) [[PDF]](https://download.visinf.tu-darmstadt.de/papers/2017-cvpr-ploetz-benchmarking_denoising_algorithms-preprint.pdf)
+ * Darmstadt [[Web]](https://noise.visinf.tu-darmstadt.de/) [[Data]](https://noise.visinf.tu-darmstadt.de/downloads/) [[PDF]](https://download.visinf.tu-darmstadt.de/papers/2017-cvpr-ploetz-benchmarking_denoising_algorithms-preprint.pdf)
    * Benchmarking Denoising Algorithms with Real Photographs (CVPR 2017), Tobias Plotz, Stefan Roth.
