@@ -45,6 +45,8 @@ This collection is inspired by the [summary by flyywh](https://github.com/flyywh
    * Weighted Nuclear Norm Minimization with Application to Image Denoising (CVPR2014), Gu et al.
  * Multi-channel Weighted Nuclear Norm [[Web]](http://www4.comp.polyu.edu.hk/~csjunxu/Publications.html) [[Code]](http://www4.comp.polyu.edu.hk/~csjunxu/code/MCWNNM.zip) [[PDF]](http://www4.comp.polyu.edu.hk/~csjunxu/paper/MCWNNM.pdf)
    * Multi-channel Weighted Nuclear Norm Minimization for Real Color Image Denoising (ICCV 2017), Xu et al.
+ * Multi-channel Weighted Nuclear Norm [[Web]](https://github.com/noamyairTC/MSWNNM) [[Code]](https://github.com/noamyairTC/MSWNNM) [[PDF]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yair_Multi-Scale_Weighted_Nuclear_CVPR_2018_paper.pdf)
+   * Multi-channel Weighted Nuclear Norm Minimization for Real Color Image Denoising (ICCV 2017), Xu et al. 
    
 #### Deep Learning
  * SF [[Web]](http://www.visinf.tu-darmstadt.de/vi_research/code/index.en.jsp#shrinkage_fields) [[Code]](https://github.com/uschmidt83/shrinkage-fields) [[PDF]](http://research.uweschmidt.org/pubs/cvpr14schmidt.pdf)
@@ -67,6 +69,8 @@ This collection is inspired by the [summary by flyywh](https://github.com/flyywh
    * xUnit: Learning a Spatial Activation Function for Efficient Image Restoration (Arxiv), Kligvasser et al. 
  * Wavelet-CNN [[Web]](https://github.com/lpj0/MWCNN) [[Code]](https://github.com/lpj0/MWCNN) [[PDF]](https://arxiv.org/abs/1805.07071)
    * Multi-level Wavelet-CNN for Image Restoration (Arxiv), Liu et al.    
+ * NLRN [[Web]]() [[Code]]() [[PDF]](https://arxiv.org/pdf/1711.07807.pdf)
+   * Non-Local Recurrent Network for Image Restoration (Arxiv), Liu et al.   
    
 #### Sparsity and Low-rankness Combined
  * STROLLR-2D [[PDF]](http://transformlearning.csl.illinois.edu/assets/Bihan/ConferencePapers/BihanICASSP2017strollr.pdf) [[Code]](https://github.com/wenbihan/strollr2d_icassp2017) 
@@ -77,5 +81,7 @@ This collection is inspired by the [summary by flyywh](https://github.com/flyywh
    * When Image Denoising Meets High-Level Vision Tasks: A Deep Learning Approach (IJCAI 2018), Liu et al.
 
 #### Benchmark
+ * ReNOIR [[Web]](http://ani.stat.fsu.edu/~abarbu/Renoir.html) [[Data]](http://ani.stat.fsu.edu/~abarbu/Renoir.html) [[PDF]](https://arxiv.org/pdf/1409.8230.pdf)
+   * RENOIR - A Dataset for Real Low-Light Image Noise Reduction (Arxiv 2014), Anaya, Barbu.
  * Darmstadt [[Web]](https://noise.visinf.tu-darmstadt.de/) [[Data]](https://noise.visinf.tu-darmstadt.de/downloads/) [[PDF]](https://download.visinf.tu-darmstadt.de/papers/2017-cvpr-ploetz-benchmarking_denoising_algorithms-preprint.pdf)
    * Benchmarking Denoising Algorithms with Real Photographs (CVPR 2017), Tobias Plotz, Stefan Roth.
