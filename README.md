@@ -43,10 +43,10 @@ This collection is inspired by the [summary by flyywh](https://github.com/flyywh
    * Nonlocal image restoration with bilateral variance estimation: a low-rank approach (TIP2013), Dong et al.
  * WNNM [[Web]](https://sites.google.com/site/shuhanggu/home) [[Code]](http://www4.comp.polyu.edu.hk/~cslzhang/code/WNNM_code.zip) [[PDF]](https://pdfs.semanticscholar.org/6d55/6272625b672ba54b5ab3d9e6474088a4b78f.pdf)
    * Weighted Nuclear Norm Minimization with Application to Image Denoising (CVPR2014), Gu et al.
- * Multi-channel Weighted Nuclear Norm [[Web]](http://www4.comp.polyu.edu.hk/~csjunxu/Publications.html) [[Code]](http://www4.comp.polyu.edu.hk/~csjunxu/code/MCWNNM.zip) [[PDF]](http://www4.comp.polyu.edu.hk/~csjunxu/paper/MCWNNM.pdf)
+ * Multi-channel WNNM [[Web]](http://www4.comp.polyu.edu.hk/~csjunxu/Publications.html) [[Code]](http://www4.comp.polyu.edu.hk/~csjunxu/code/MCWNNM.zip) [[PDF]](http://www4.comp.polyu.edu.hk/~csjunxu/paper/MCWNNM.pdf)
    * Multi-channel Weighted Nuclear Norm Minimization for Real Color Image Denoising (ICCV 2017), Xu et al.
- * Multi-channel Weighted Nuclear Norm [[Web]](https://github.com/noamyairTC/MSWNNM) [[Code]](https://github.com/noamyairTC/MSWNNM) [[PDF]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yair_Multi-Scale_Weighted_Nuclear_CVPR_2018_paper.pdf)
-   * Multi-channel Weighted Nuclear Norm Minimization for Real Color Image Denoising (ICCV 2017), Xu et al. 
+ * Multi-Scale WNNM [[Web]](https://github.com/noamyairTC/MSWNNM) [[Code]](https://github.com/noamyairTC/MSWNNM) [[PDF]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yair_Multi-Scale_Weighted_Nuclear_CVPR_2018_paper.pdf)
+   * Multi-Scale Weighted Nuclear Norm Image Restoration (CVPR 2018), Yair and Michaeli. 
    
 #### Deep Learning
  * SF [[Web]](http://www.visinf.tu-darmstadt.de/vi_research/code/index.en.jsp#shrinkage_fields) [[Code]](https://github.com/uschmidt83/shrinkage-fields) [[PDF]](http://research.uweschmidt.org/pubs/cvpr14schmidt.pdf)
