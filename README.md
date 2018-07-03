@@ -67,7 +67,7 @@ This collection is inspired by the [summary by flyywh](https://github.com/flyywh
    * xUnit: Learning a Spatial Activation Function for Efficient Image Restoration (Arxiv), Kligvasser et al. 
  * Wavelet-CNN [[Web]](https://github.com/lpj0/MWCNN) [[Code]](https://github.com/lpj0/MWCNN) [[PDF]](https://arxiv.org/abs/1805.07071)
    * Multi-level Wavelet-CNN for Image Restoration (Arxiv), Liu et al.    
- * NLRN [[Web]]() [[Code]]() [[PDF]](https://arxiv.org/pdf/1711.07807.pdf)
+ * NLRN [[Web]]() [[Code]]() [[PDF]](https://arxiv.org/pdf/1806.02919.pdf)
    * Non-Local Recurrent Network for Image Restoration (Arxiv), Liu et al.   
    
 #### Sparsity and Low-rankness Combined
