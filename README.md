@@ -80,7 +80,7 @@ This collection is inspired by the [summary by flyywh](https://github.com/flyywh
    * Fully Convolutional Pixel Adaptive Image Denoiser (Arxiv), Cha et al.  
  * CBDNet [[Web]](https://github.com/GuoShi28/CBDNet) [[Code]](https://github.com/GuoShi28/CBDNet) [[PDF]](https://arxiv.org/pdf/1807.04686.pdf)
    * Toward Convolutional Blind Denoising of Real Photographs (Arxiv), Guo et al.  
- * Noise2Noise [[Web]](https://github.com/yu4u/noise2noise) [[Code]](https://github.com/yu4u/noise2noise) [[PDF]](https://arxiv.org/pdf/1803.04189.pdf)
+ * Noise2Noise [[Web]](https://github.com/yu4u/noise2noise) [[TF Code]](https://github.com/NVlabs/noise2noise) [[Keras Unofficial Code]](https://github.com/yu4u/noise2noise) [[PDF]](https://arxiv.org/pdf/1803.04189.pdf)
    * Noise2Noise: Learning Image Restoration without Clean Data (Arxiv), Lehtinen et al.      
  * UDN [[Web]](https://cig.skoltech.ru/publications) [[Code]](https://github.com/cig-skoltech/UDNet) [[PDF]](http://www.skoltech.ru/app/data/uploads/sites/19/2018/03/UDNet_CVPR2018.pdf)
    * Universal Denoising Networks- A Novel CNN Architecture for Image Denoising (CVPR 2018), Lefkimmiatis.     
@@ -88,7 +88,7 @@ This collection is inspired by the [summary by flyywh](https://github.com/flyywh
    * Neural Nearest Neighbors Networks (NIPS 2018), Plotz et al.  
  * NLRN [[Web]](https://github.com/Ding-Liu/NLRN) [[Code]](https://github.com/Ding-Liu/NLRN) [[PDF]](https://arxiv.org/pdf/1806.02919.pdf)
    * Non-Local Recurrent Network for Image Restoration (NIPS 2018), Liu et al.
- 
+
    
 #### Sparsity and Low-rankness Combined
  * STROLLR-2D [[PDF]](http://transformlearning.csl.illinois.edu/assets/Bihan/ConferencePapers/BihanICASSP2017strollr.pdf) [[Code]](https://github.com/wenbihan/strollr2d_icassp2017) 
