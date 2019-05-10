@@ -65,7 +65,6 @@ This collection is inspired by the [summary by flyywh](https://github.com/flyywh
    * L_p-Norm Constrained Coding With Frank-Wolfe Network (Arxiv), Sun et al.
  * NLCNN [[Web]](https://cig.skoltech.ru/publications) [[Code]](https://github.com/cig-skoltech/NLNet) [[PDF]](http://www.skoltech.ru/app/data/uploads/sites/19/2017/06/1320.pdf)
    * Non-Local Color Image Denoising with Convolutional Neural Networks (CVPR 2017), Lefkimmiatis.
-
  * Deep image prior [[Web]](https://dmitryulyanov.github.io/deep_image_prior) [[Code]](https://github.com/DmitryUlyanov/deep-image-prior) [[PDF]](https://sites.skoltech.ru/app/data/uploads/sites/25/2018/04/deep_image_prior.pdf)
    * Deep Image Prior (CVPR 2018), Ulyanov et al.
  * xUnit [[Web]](https://github.com/kligvasser/xUnit) [[Code]](https://github.com/kligvasser/xUnit) [[PDF]](https://arxiv.org/pdf/1711.06445.pdf)
@@ -88,7 +87,8 @@ This collection is inspired by the [summary by flyywh](https://github.com/flyywh
    * Neural Nearest Neighbors Networks (NIPS 2018), Plotz et al.  
  * NLRN [[Web]](https://github.com/Ding-Liu/NLRN) [[Code]](https://github.com/Ding-Liu/NLRN) [[PDF]](https://arxiv.org/pdf/1806.02919.pdf)
    * Non-Local Recurrent Network for Image Restoration (NIPS 2018), Liu et al.
-
+ * RDN+ [[Web]](https://github.com/yulunzhang/RDN) [[Code]](https://github.com/yulunzhang/RDN) [[PDF]](https://arxiv.org/abs/1812.10477)
+   * Residual Dense Network for Image Restoration (CVPR 2018), Zhang et al.
    
 #### Sparsity and Low-rankness Combined
  * STROLLR-2D [[PDF]](http://transformlearning.csl.illinois.edu/assets/Bihan/ConferencePapers/BihanICASSP2017strollr.pdf) [[Code]](https://github.com/wenbihan/strollr2d_icassp2017) 
