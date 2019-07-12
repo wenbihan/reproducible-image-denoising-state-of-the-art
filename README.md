@@ -75,7 +75,7 @@ This collection is inspired by the [summary by flyywh](https://github.com/flyywh
    * Multi-level Wavelet-CNN for Image Restoration (Arxiv), Liu et al.  
  * FFDNet [[Web]](https://github.com/cszn/FFDNet/) [[Code]](https://github.com/cszn/FFDNet/) [[PDF]](https://arxiv.org/abs/1710.04026)
    * FFDNet: Toward a Fast and Flexible Solution for CNN-Based Image Denoising (TIP), Zhang et al.
- * FC-AIDE [[Web]](https://github.com/csm9493/FC-AIDE) [[Code]](https://github.com/GuoShi28/CBDNet) [[PDF]](https://arxiv.org/pdf/1807.07569.pdf)
+ * FC-AIDE [[Web]](https://github.com/csm9493/FC-AIDE) [[Code]](https://github.com/csm9493/FC-AIDE) [[PDF]](https://arxiv.org/pdf/1807.07569.pdf)
    * Fully Convolutional Pixel Adaptive Image Denoiser (Arxiv), Cha et al.  
  * CBDNet [[Web]](https://github.com/GuoShi28/CBDNet) [[Code]](https://github.com/GuoShi28/CBDNet) [[PDF]](https://arxiv.org/pdf/1807.04686.pdf)
    * Toward Convolutional Blind Denoising of Real Photographs (Arxiv), Guo et al.  
