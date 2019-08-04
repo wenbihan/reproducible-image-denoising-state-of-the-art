@@ -97,7 +97,8 @@ This collection is inspired by the [summary by flyywh](https://github.com/flyywh
 #### Combined with High-Level Tasks
  * Meets High-level Tasks [[PDF]](https://arxiv.org/pdf/1706.04284.pdf) [[Code]](https://github.com/wenbihan/DeepDenoising) 
    * When Image Denoising Meets High-Level Vision Tasks: A Deep Learning Approach (IJCAI 2018), Liu et al.
-
+ * USA [[PDF]](https://arxiv.org/pdf/1905.08965.pdf) [[Code]](https://github.com/sharonwang1/seg_denoising) 
+   * Segmentation-aware Image Denoising Without Knowing True Segmentation (Arxiv), Wang et al.
 
 #### Image Noise Level Estimation
  * SINLE [[PDF]](http://www.ok.sc.e.titech.ac.jp/res/NLE/TIP2013-noise-level-estimation06607209.pdf) [[Code]](https://www.mathworks.com/matlabcentral/fileexchange/36921-noise-level-estimation-from-a-single-image) [[Slides]](https://wwwpub.zih.tu-dresden.de/~hh3/Hauptsem/SS16/noise.pdf)
