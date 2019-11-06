@@ -30,7 +30,7 @@ This collection is inspired by the [summary by flyywh](https://github.com/flyywh
  * TWSC [[Web]](https://github.com/csjunxu/TWSC-ECCV2018) [[Code]](https://github.com/csjunxu/TWSC-ECCV2018) [[PDF]](http://openaccess.thecvf.com/content_ECCV_2018/papers/XU_JUN_A_Trilateral_Weighted_ECCV_2018_paper.pdf)
    * A Trilateral Weighted Sparse Coding Scheme for Real-World Image Denoising (ECCV 2018), Xu et al.
   
-#### Effective Prior
+#### External Prior
  * EPLL [[Web]](https://people.csail.mit.edu/danielzoran/) [[Code]](https://people.csail.mit.edu/danielzoran/epllcode.zip) [[PDF]](http://people.ee.duke.edu/~lcarin/EPLICCVCameraReady.pdf)
    * From Learning Models of Natural Image Patches to Whole Image Restoration (ICCV2011), Zoran et al.
  * GHP [[Web]][[Code]](https://github.com/tingfengainiaini/GHPBasedImageRestoration) [[PDF]](https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Zuo_Texture_Enhanced_Image_2013_CVPR_paper.pdf)
