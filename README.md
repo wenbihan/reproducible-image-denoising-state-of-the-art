@@ -5,6 +5,7 @@ Criteria: works must have codes available, and the reproducible results demonstr
 
 This collection is inspired by the [summary by flyywh](https://github.com/flyywh/Image-Denoising-State-of-the-art)
 
+Note: This repo focuses on single image denoising in general, and will exclude multi-frame and video denoising works.
 
 ## Denoising Algorithms
 #### Filter
@@ -48,7 +49,7 @@ This collection is inspired by the [summary by flyywh](https://github.com/flyywh
  * Multi-channel WNNM [[Web]](http://www4.comp.polyu.edu.hk/~csjunxu/Publications.html) [[Code]](http://www4.comp.polyu.edu.hk/~csjunxu/code/MCWNNM.zip) [[PDF]](http://www4.comp.polyu.edu.hk/~csjunxu/paper/MCWNNM.pdf)
    * Multi-channel Weighted Nuclear Norm Minimization for Real Color Image Denoising (ICCV 2017), Xu et al.
    
-#### Deep Learning
+#### Deep Denoising
  * SF [[Web]](http://www.visinf.tu-darmstadt.de/vi_research/code/index.en.jsp#shrinkage_fields) [[Code]](https://github.com/uschmidt83/shrinkage-fields) [[PDF]](http://research.uweschmidt.org/pubs/cvpr14schmidt.pdf)
    * Shrinkage Fields for Effective Image Restoration (CVPR 2014), Schmidt et al.
  * TNRD [[Web]](http://www.icg.tugraz.at/Members/Chenyunjin/about-yunjin-chen) [[Code]](https://www.dropbox.com/s/8j6b880m6ddxtee/TNRD-Codes.zip?dl=0) [[PDF]](https://arxiv.org/pdf/1508.02848.pdf)
@@ -65,8 +66,6 @@ This collection is inspired by the [summary by flyywh](https://github.com/flyywh
    * L_p-Norm Constrained Coding With Frank-Wolfe Network (Arxiv), Sun et al.
  * NLCNN [[Web]](https://cig.skoltech.ru/publications) [[Code]](https://github.com/cig-skoltech/NLNet) [[PDF]](http://www.skoltech.ru/app/data/uploads/sites/19/2017/06/1320.pdf)
    * Non-Local Color Image Denoising with Convolutional Neural Networks (CVPR 2017), Lefkimmiatis.
- * Deep image prior [[Web]](https://dmitryulyanov.github.io/deep_image_prior) [[Code]](https://github.com/DmitryUlyanov/deep-image-prior) [[PDF]](https://sites.skoltech.ru/app/data/uploads/sites/25/2018/04/deep_image_prior.pdf)
-   * Deep Image Prior (CVPR 2018), Ulyanov et al.
  * xUnit [[Web]](https://github.com/kligvasser/xUnit) [[Code]](https://github.com/kligvasser/xUnit) [[PDF]](https://arxiv.org/pdf/1711.06445.pdf)
    * xUnit: Learning a Spatial Activation Function for Efficient Image Restoration (Arxiv), Kligvasser et al.  
  * UDNet [[Web]](https://github.com/cig-skoltech/UDNet) [[Code]](https://github.com/cig-skoltech/UDNet) [[PDF]](https://arxiv.org/pdf/1711.07807.pdf)
@@ -79,8 +78,6 @@ This collection is inspired by the [summary by flyywh](https://github.com/flyywh
    * Fully Convolutional Pixel Adaptive Image Denoiser (Arxiv), Cha et al.  
  * CBDNet [[Web]](https://github.com/GuoShi28/CBDNet) [[Code]](https://github.com/GuoShi28/CBDNet) [[PDF]](https://arxiv.org/pdf/1807.04686.pdf)
    * Toward Convolutional Blind Denoising of Real Photographs (Arxiv), Guo et al.  
- * Noise2Noise [[Web]](https://github.com/yu4u/noise2noise) [[TF Code]](https://github.com/NVlabs/noise2noise) [[Keras Unofficial Code]](https://github.com/yu4u/noise2noise) [[PDF]](https://arxiv.org/pdf/1803.04189.pdf)
-   * Noise2Noise: Learning Image Restoration without Clean Data (ICML 2018), Lehtinen et al.      
  * UDN [[Web]](https://cig.skoltech.ru/publications) [[Code]](https://github.com/cig-skoltech/UDNet) [[PDF]](http://www.skoltech.ru/app/data/uploads/sites/19/2018/03/UDNet_CVPR2018.pdf)
    * Universal Denoising Networks- A Novel CNN Architecture for Image Denoising (CVPR 2018), Lefkimmiatis.     
  * N3 [[Web]](https://github.com/visinf/n3net) [[Code]](https://github.com/visinf/n3net) [[PDF]](https://arxiv.org/abs/1810.12575)
@@ -89,12 +86,32 @@ This collection is inspired by the [summary by flyywh](https://github.com/flyywh
    * Non-Local Recurrent Network for Image Restoration (NIPS 2018), Liu et al.
  * RDN+ [[Web]](https://github.com/yulunzhang/RDN) [[Code]](https://github.com/yulunzhang/RDN) [[PDF]](https://arxiv.org/abs/1812.10477)
    * Residual Dense Network for Image Restoration (CVPR 2018), Zhang et al.
-   
-#### Sparsity and Low-rankness Combined
- * STROLLR-2D [[PDF]](http://transformlearning.csl.illinois.edu/assets/Bihan/ConferencePapers/BihanICASSP2017strollr.pdf) [[Code]](https://github.com/wenbihan/strollr2d_icassp2017) 
+ * FOCNet [[Web]](https://github.com/hsijiaxidian/FOCNet) [[Code]](https://github.com/hsijiaxidian/FOCNet) [[PDF]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Jia_FOCNet_A_Fractional_Optimal_Control_Network_for_Image_Denoising_CVPR_2019_paper.pdf)
+   * FOCNet: A Fractional Optimal Control Network for Image Denoising (CVPR 2019), Jia et al.
+
+#### Unsupervised / Weakly-Supervised Deep Denoising
+ * Noise2Noise [[Web]](https://github.com/yu4u/noise2noise) [[TF Code]](https://github.com/NVlabs/noise2noise) [[Keras Unofficial Code]](https://github.com/yu4u/noise2noise) [[PDF]](https://arxiv.org/pdf/1803.04189.pdf)
+   * Noise2Noise: Learning Image Restoration without Clean Data (ICML 2018), Lehtinen et al.      
+ * DIP [[Web]](https://dmitryulyanov.github.io/deep_image_prior) [[Code]](https://github.com/DmitryUlyanov/deep-image-prior) [[PDF]](https://sites.skoltech.ru/app/data/uploads/sites/25/2018/04/deep_image_prior.pdf)
+   * Deep Image Prior (CVPR 2018), Ulyanov et al.
+ * Noise2Void [[Web]](https://github.com/juglab/n2v) [[Code]](https://github.com/juglab/n2v) [[PDF]](https://arxiv.org/abs/1811.10980)
+   * Learning Denoising from Single Noisy Images (CVPR 2019), Krull et al.
+ * Noise2Self [[Web]](https://github.com/czbiohub/noise2self) [[Code]](https://github.com/czbiohub/noise2self) [[PDF]](https://arxiv.org/abs/1811.10980)
+   * LNoise2Self: Blind Denoising by Self-Supervision (ICML 2019), Batson and Royer
+ * Self-Supervised Denoising [[Web]](https://github.com/NVlabs/selfsupervised-denoising) [[Code]](https://github.com/NVlabs/selfsupervised-denoising) [[PDF]](https://arxiv.org/abs/1901.10277)
+   * High-Quality Self-Supervised Deep Image Denoising (NIPS 2019), Laine et al.   
+
+#### Real Noise Removal 
+ * RIDNet [[Web]](https://github.com/saeed-anwar/RIDNet) [[Code]](https://github.com/saeed-anwar/RIDNet) [[PDF]](https://arxiv.org/abs/1904.07396)
+   * Real Image Denoising with Feature Attention (ICCV 2019), Anwar and Barnes.      
+ * CBDNet [[Web]](https://github.com/GuoShi28/CBDNet) [[Code]](https://github.com/GuoShi28/CBDNet) [[PDF]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Guo_Toward_Convolutional_Blind_Denoising_of_Real_Photographs_CVPR_2019_paper.pdf)
+   * Real Image Denoising with Feature Attention (CVPR 2019), Guo et al. 
+ * VDNNet [[Web]](https://github.com/zsyOAOA/VDNet) [[Code]](https://github.com/zsyOAOA/VDNet) [[PDF]](https://arxiv.org/pdf/1908.11314v2.pdf)
+   * Variational Denoising Network: Toward Blind Noise Modeling and Removal (NIPS 2019), Yue et al. 
+ 
+#### Hybrid Model for Denoising
+ * STROLLR [[PDF]](http://transformlearning.csl.illinois.edu/assets/Bihan/ConferencePapers/BihanICASSP2017strollr.pdf) [[Code]](https://github.com/wenbihan/strollr2d_icassp2017) 
    * When Sparsity Meets Low-Rankness: Transform Learning With Non-Local Low-Rank Constraint for Image Restoration (ICASSP 2017), Wen et al.
-   
-#### Combined with High-Level Tasks
  * Meets High-level Tasks [[PDF]](https://arxiv.org/pdf/1706.04284.pdf) [[Code]](https://github.com/wenbihan/DeepDenoising) 
    * When Image Denoising Meets High-Level Vision Tasks: A Deep Learning Approach (IJCAI 2018), Liu et al.
  * USA [[PDF]](https://arxiv.org/pdf/1905.08965.pdf) [[Code]](https://github.com/sharonwang1/seg_denoising) 
@@ -118,7 +135,7 @@ This collection is inspired by the [summary by flyywh](https://github.com/flyywh
  * USC SIPI-Misc [[Web]](http://sipi.usc.edu/database/database.php?volume=misc) 
  * BSD [[Web]](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/)  
 
-#### Commonly Used Image Quality Metric Code
+#### Commonly Used Image Quality Metrics
  * PSNR (Peak Signal-to-Noise Ratio) [[Wiki]](https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio) [[Matlab Code]](https://www.mathworks.com/help/images/ref/psnr.html) [[Python Code]](https://github.com/aizvorski/video-quality)
  * SSIM (Structural similarity) [[Wiki]](https://en.wikipedia.org/wiki/Structural_similarity) [[Matlab Code]](http://www.cns.nyu.edu/~lcv/ssim/ssim_index.m) [[Python Code]](https://github.com/aizvorski/video-quality/blob/master/ssim.py)
  * NIQE (Naturalness Image Quality Evaluator) [[Web]](http://live.ece.utexas.edu/research/Quality/nrqa.htm) [[Matlab Code]](http://live.ece.utexas.edu/research/Quality/nrqa.htm) [[Python Code]](https://github.com/aizvorski/video-quality/blob/master/niqe.py)
