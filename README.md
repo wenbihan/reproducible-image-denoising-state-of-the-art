@@ -5,6 +5,8 @@ Criteria: works must have codes available, and the reproducible results demonstr
 
 This collection is inspired by the [summary by flyywh](https://github.com/flyywh/Image-Denoising-State-of-the-art)
 
+New: We created a similar-format [Reproducible-video-denoising-state-of-the-art](https://github.com/liv-group/reproducible-video-denoising-state-of-the-art)
+
 Note: This repo focuses on single image denoising in general, and will exclude multi-frame and video denoising works.
 
 ## Denoising Algorithms
