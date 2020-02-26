@@ -1,16 +1,20 @@
 # reproducible-image-denoising-state-of-the-art
-Collection of popular and reproducible image denoising works.
+Collection of popular and reproducible **single image denoising** works.
+This collection is inspired by the [summary by flyywh](https://github.com/flyywh/Image-Denoising-State-of-the-art)
 
 Criteria: works must have codes available, and the reproducible results demonstrate state-of-the-art performances.
 
-This collection is inspired by the [summary by flyywh](https://github.com/flyywh/Image-Denoising-State-of-the-art)
+Check out the following collections of reproducible state-of-the-art algorithms: 
 
-New: We created a similar-format [Reproducible-video-denoising-state-of-the-art](https://github.com/liv-group/reproducible-video-denoising-state-of-the-art)
+ * [Video Denoising](https://github.com/liv-group/reproducible-video-denoising-state-of-the-art)
 
-Note: This repo focuses on single image denoising in general, and will exclude multi-frame and video denoising works.
+ * [MultiSpectral / HyperSpepctral Denoising (to be ready)](https://github.com/liv-group/reproducible-video-denoising-state-of-the-art)
 
-## Denoising Algorithms
-#### Filter
+ * [CS MRI (to be ready)](https://github.com/wenbihan/reproducible-compressed-sensing-MRI-codes)
+
+
+## Denoising Algorithms (AWGN)
+#### Filtering
  * NLM [[Web]](https://sites.google.com/site/shreyamsha/publications/image-denoising-based-on-nlfmt) [[Code]](https://www.mathworks.com/matlabcentral/fileexchange/44090-image-denoising-based-on-non-local-means-filter-and-its-method-noise-thresholding?focused=3806802&tab=function) [[PDF]](https://link.springer.com/article/10.1007/s11760-012-0389-y)
    * A non-local algorithm for image denoising (CVPR 05), Buades et al.
    * Image denoising based on non-local means filter and its method noise thresholding (SIVP2013), B. Kumar
@@ -52,8 +56,6 @@ Note: This repo focuses on single image denoising in general, and will exclude m
    * Multi-channel Weighted Nuclear Norm Minimization for Real Color Image Denoising (ICCV 2017), Xu et al.
    
 #### Deep Denoising
- * SF [[Web]](http://www.visinf.tu-darmstadt.de/vi_research/code/index.en.jsp#shrinkage_fields) [[Code]](https://github.com/uschmidt83/shrinkage-fields) [[PDF]](http://research.uweschmidt.org/pubs/cvpr14schmidt.pdf)
-   * Shrinkage Fields for Effective Image Restoration (CVPR 2014), Schmidt et al.
  * TNRD [[Web]](http://www.icg.tugraz.at/Members/Chenyunjin/about-yunjin-chen) [[Code]](https://www.dropbox.com/s/8j6b880m6ddxtee/TNRD-Codes.zip?dl=0) [[PDF]](https://arxiv.org/pdf/1508.02848.pdf)
    * Trainable nonlinear reaction diffusion: A flexible framework for fast and effective image restoration (TPAMI 2016), Chen et al.
  * RED [[Web]](https://bitbucket.org/chhshen/image-denoising/) [[Code]](https://bitbucket.org/chhshen/image-denoising/) [[PDF]](https://arxiv.org/pdf/1603.09056.pdf)
@@ -62,24 +64,16 @@ Note: This repo focuses on single image denoising in general, and will exclude m
    * Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising (TIP2017), Zhang et al.
  * MemNet [[Web]](https://github.com/tyshiwo/MemNet) [[Code]](https://github.com/tyshiwo/MemNet) [[PDF]](http://cvlab.cse.msu.edu/pdfs/Image_Restoration%20using_Persistent_Memory_Network.pdf)
    * MemNet: A Persistent Memory Network for Image Restoration (ICCV2017), Tai et al.  
- * WIN [[Web]](https://github.com/cswin/WIN) [[Code]](https://github.com/cswin/WIN) [[PDF]](https://arxiv.org/pdf/1707.09135.pdf)
-   * Learning Pixel-Distribution Prior with Wider Convolution for Image Denoising (Arxiv), Liu et al.    
- * F-W Net [[Web]](https://github.com/sunke123/FW-Net) [[Code]](https://github.com/sunke123/FW-Net) [[PDF]](https://arxiv.org/abs/1802.10252)
-   * L_p-Norm Constrained Coding With Frank-Wolfe Network (Arxiv), Sun et al.
  * NLCNN [[Web]](https://cig.skoltech.ru/publications) [[Code]](https://github.com/cig-skoltech/NLNet) [[PDF]](http://www.skoltech.ru/app/data/uploads/sites/19/2017/06/1320.pdf)
    * Non-Local Color Image Denoising with Convolutional Neural Networks (CVPR 2017), Lefkimmiatis.
  * xUnit [[Web]](https://github.com/kligvasser/xUnit) [[Code]](https://github.com/kligvasser/xUnit) [[PDF]](https://arxiv.org/pdf/1711.06445.pdf)
-   * xUnit: Learning a Spatial Activation Function for Efficient Image Restoration (Arxiv), Kligvasser et al.  
+   * xUnit: Learning a Spatial Activation Function for Efficient Image Restoration (CVPR 2018), Kligvasser et al.  
  * UDNet [[Web]](https://github.com/cig-skoltech/UDNet) [[Code]](https://github.com/cig-skoltech/UDNet) [[PDF]](https://arxiv.org/pdf/1711.07807.pdf)
    * Universal Denoising Networks : A Novel CNN Architecture for Image Denoising (CVPR 2018), Stamatios  Lefkimmiatis.   
  * Wavelet-CNN [[Web]](https://github.com/lpj0/MWCNN) [[Code]](https://github.com/lpj0/MWCNN) [[PDF]](https://arxiv.org/abs/1805.07071)
-   * Multi-level Wavelet-CNN for Image Restoration (Arxiv), Liu et al.  
+   * Multi-level Wavelet-CNN for Image Restoration (CVPR 2018), Liu et al.  
  * FFDNet [[Web]](https://github.com/cszn/FFDNet/) [[Code]](https://github.com/cszn/FFDNet/) [[PDF]](https://arxiv.org/abs/1710.04026)
-   * FFDNet: Toward a Fast and Flexible Solution for CNN-Based Image Denoising (TIP), Zhang et al.
- * FC-AIDE [[Web]](https://github.com/csm9493/FC-AIDE) [[Code]](https://github.com/csm9493/FC-AIDE) [[PDF]](https://arxiv.org/pdf/1807.07569.pdf)
-   * Fully Convolutional Pixel Adaptive Image Denoiser (Arxiv), Cha et al.  
- * CBDNet [[Web]](https://github.com/GuoShi28/CBDNet) [[Code]](https://github.com/GuoShi28/CBDNet) [[PDF]](https://arxiv.org/pdf/1807.04686.pdf)
-   * Toward Convolutional Blind Denoising of Real Photographs (Arxiv), Guo et al.  
+   * FFDNet: Toward a Fast and Flexible Solution for CNN-Based Image Denoising (TIP 2018), Zhang et al.
  * UDN [[Web]](https://cig.skoltech.ru/publications) [[Code]](https://github.com/cig-skoltech/UDNet) [[PDF]](http://www.skoltech.ru/app/data/uploads/sites/19/2018/03/UDNet_CVPR2018.pdf)
    * Universal Denoising Networks- A Novel CNN Architecture for Image Denoising (CVPR 2018), Lefkimmiatis.     
  * N3 [[Web]](https://github.com/visinf/n3net) [[Code]](https://github.com/visinf/n3net) [[PDF]](https://arxiv.org/abs/1810.12575)
@@ -88,6 +82,8 @@ Note: This repo focuses on single image denoising in general, and will exclude m
    * Non-Local Recurrent Network for Image Restoration (NIPS 2018), Liu et al.
  * RDN+ [[Web]](https://github.com/yulunzhang/RDN) [[Code]](https://github.com/yulunzhang/RDN) [[PDF]](https://arxiv.org/abs/1812.10477)
    * Residual Dense Network for Image Restoration (CVPR 2018), Zhang et al.
+ * FC-AIDE [[Web]](https://github.com/csm9493/FC-AIDE) [[Code]](https://github.com/csm9493/FC-AIDE) [[PDF]](https://arxiv.org/pdf/1807.07569.pdf)
+   * Fully Convolutional Pixel Adaptive Image Denoiser (ICCV 2019), Cha et al.  
  * FOCNet [[Web]](https://github.com/hsijiaxidian/FOCNet) [[Code]](https://github.com/hsijiaxidian/FOCNet) [[PDF]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Jia_FOCNet_A_Fractional_Optimal_Control_Network_for_Image_Denoising_CVPR_2019_paper.pdf)
    * FOCNet: A Fractional Optimal Control Network for Image Denoising (CVPR 2019), Jia et al.
 
@@ -102,15 +98,7 @@ Note: This repo focuses on single image denoising in general, and will exclude m
    * LNoise2Self: Blind Denoising by Self-Supervision (ICML 2019), Batson and Royer
  * Self-Supervised Denoising [[Web]](https://github.com/NVlabs/selfsupervised-denoising) [[Code]](https://github.com/NVlabs/selfsupervised-denoising) [[PDF]](https://arxiv.org/abs/1901.10277)
    * High-Quality Self-Supervised Deep Image Denoising (NIPS 2019), Laine et al.   
-
-#### Real Noise Removal 
- * RIDNet [[Web]](https://github.com/saeed-anwar/RIDNet) [[Code]](https://github.com/saeed-anwar/RIDNet) [[PDF]](https://arxiv.org/abs/1904.07396)
-   * Real Image Denoising with Feature Attention (ICCV 2019), Anwar and Barnes.      
- * CBDNet [[Web]](https://github.com/GuoShi28/CBDNet) [[Code]](https://github.com/GuoShi28/CBDNet) [[PDF]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Guo_Toward_Convolutional_Blind_Denoising_of_Real_Photographs_CVPR_2019_paper.pdf)
-   * Real Image Denoising with Feature Attention (CVPR 2019), Guo et al. 
- * VDNNet [[Web]](https://github.com/zsyOAOA/VDNet) [[Code]](https://github.com/zsyOAOA/VDNet) [[PDF]](https://arxiv.org/pdf/1908.11314v2.pdf)
-   * Variational Denoising Network: Toward Blind Noise Modeling and Removal (NIPS 2019), Yue et al. 
- 
+   
 #### Hybrid Model for Denoising
  * STROLLR [[PDF]](http://transformlearning.csl.illinois.edu/assets/Bihan/ConferencePapers/BihanICASSP2017strollr.pdf) [[Code]](https://github.com/wenbihan/strollr2d_icassp2017) 
    * When Sparsity Meets Low-Rankness: Transform Learning With Non-Local Low-Rank Constraint for Image Restoration (ICASSP 2017), Wen et al.
@@ -119,12 +107,22 @@ Note: This repo focuses on single image denoising in general, and will exclude m
  * USA [[PDF]](https://arxiv.org/pdf/1905.08965.pdf) [[Code]](https://github.com/sharonwang1/seg_denoising) 
    * Segmentation-aware Image Denoising Without Knowing True Segmentation (Arxiv), Wang et al.
 
-#### Image Noise Level Estimation
+## Blind Denoising or Real Noise Removal 
+ * RIDNet [[Web]](https://github.com/saeed-anwar/RIDNet) [[Code]](https://github.com/saeed-anwar/RIDNet) [[PDF]](https://arxiv.org/abs/1904.07396)
+   * Real Image Denoising with Feature Attention (ICCV 2019), Anwar and Barnes.      
+ * CBDNet [[Web]](https://github.com/GuoShi28/CBDNet) [[Code]](https://github.com/GuoShi28/CBDNet) [[PDF]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Guo_Toward_Convolutional_Blind_Denoising_of_Real_Photographs_CVPR_2019_paper.pdf)
+   * Real Image Denoising with Feature Attention (CVPR 2019), Guo et al. 
+ * CBDNet [[Web]](https://github.com/GuoShi28/CBDNet) [[Code]](https://github.com/GuoShi28/CBDNet) [[PDF]](https://arxiv.org/pdf/1807.04686.pdf)
+   * Toward Convolutional Blind Denoising of Real Photographs (CVPR 2019), Guo et al.  
+ * VDNNet [[Web]](https://github.com/zsyOAOA/VDNet) [[Code]](https://github.com/zsyOAOA/VDNet) [[PDF]](https://arxiv.org/pdf/1908.11314v2.pdf)
+   * Variational Denoising Network: Toward Blind Noise Modeling and Removal (NIPS 2019), Yue et al. 
+ 
+## Image Noise Level Estimation
  * SINLE [[PDF]](http://www.ok.sc.e.titech.ac.jp/res/NLE/TIP2013-noise-level-estimation06607209.pdf) [[Code]](https://www.mathworks.com/matlabcentral/fileexchange/36921-noise-level-estimation-from-a-single-image) [[Slides]](https://wwwpub.zih.tu-dresden.de/~hh3/Hauptsem/SS16/noise.pdf)
    * Single-image Noise Level Estimation for Blind Denoising (TIP 2014), Liu et al.
 
 
-#### Novel Benchmark
+## Novel Real Denoising Benchmark
  * ReNOIR [[Web]](http://ani.stat.fsu.edu/~abarbu/Renoir.html) [[Data]](http://ani.stat.fsu.edu/~abarbu/Renoir.html) [[PDF]](https://arxiv.org/pdf/1409.8230.pdf)
    * RENOIR - A Dataset for Real Low-Light Image Noise Reduction (Arxiv 2014), Anaya, Barbu.   
  * Darmstadt [[Web]](https://noise.visinf.tu-darmstadt.de/) [[Data]](https://noise.visinf.tu-darmstadt.de/downloads/) [[PDF]](https://download.visinf.tu-darmstadt.de/papers/2017-cvpr-ploetz-benchmarking_denoising_algorithms-preprint.pdf)
