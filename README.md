@@ -69,9 +69,11 @@ Check out the following collections of reproducible state-of-the-art algorithms:
  * xUnit [[Web]](https://github.com/kligvasser/xUnit) [[Code]](https://github.com/kligvasser/xUnit) [[PDF]](https://arxiv.org/pdf/1711.06445.pdf)
    * xUnit: Learning a Spatial Activation Function for Efficient Image Restoration (CVPR 2018), Kligvasser et al.  
  * UDNet [[Web]](https://github.com/cig-skoltech/UDNet) [[Code]](https://github.com/cig-skoltech/UDNet) [[PDF]](https://arxiv.org/pdf/1711.07807.pdf)
-   * Universal Denoising Networks : A Novel CNN Architecture for Image Denoising (CVPR 2018), Stamatios  Lefkimmiatis.   
+   * Universal Denoising Networks : A Novel CNN Architecture for Image Denoising (CVPR 2018), Lefkimmiatis.   
  * Wavelet-CNN [[Web]](https://github.com/lpj0/MWCNN) [[Code]](https://github.com/lpj0/MWCNN) [[PDF]](https://arxiv.org/abs/1805.07071)
    * Multi-level Wavelet-CNN for Image Restoration (CVPR 2018), Liu et al.  
+ * IRN [[Web]](http://cig.skoltech.ru/deep_demosaick/) [[Code]](https://github.com/cig-skoltech/deep_demosaick) [[PDF]](https://arxiv.org/pdf/1803.05215.pdf)
+   * Deep Image Demosaicking using a Cascade of Convolutional Residual Denoising Networks (ECCV 2018), Lefkimmiatis.
  * FFDNet [[Web]](https://github.com/cszn/FFDNet/) [[Code]](https://github.com/cszn/FFDNet/) [[PDF]](https://arxiv.org/abs/1710.04026)
    * FFDNet: Toward a Fast and Flexible Solution for CNN-Based Image Denoising (TIP 2018), Zhang et al.
  * UDN [[Web]](https://cig.skoltech.ru/publications) [[Code]](https://github.com/cig-skoltech/UDNet) [[PDF]](http://www.skoltech.ru/app/data/uploads/sites/19/2018/03/UDNet_CVPR2018.pdf)
@@ -129,6 +131,8 @@ Check out the following collections of reproducible state-of-the-art algorithms:
    * Benchmarking Denoising Algorithms with Real Photographs (CVPR 2017), Tobias Plotz, Stefan Roth.
  * PolyU [[Web]](https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset) [[Data]](https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset) [[PDF]](https://arxiv.org/pdf/1804.02603.pdf)
    * Real-world Noisy Image Denoising: A New Benchmark (Arxiv), Xu et al.
+ * SIDD [[Web]](https://www.eecs.yorku.ca/~kamel/sidd/dataset.php) [[Data]](ftp://sidd_user:sidd_2018@130.63.97.225/SIDD_Medium_Srgb.zip) [[PDF]](https://www.eecs.yorku.ca/~kamel/sidd/files/SIDD_CVPR_2018.pdf)
+   * A High-Quality Denoising Dataset for Smartphone Cameras (CV{R 2018), Abdelhamed et al.
    
 #### Commonly Used Denoising Dataset
  * Kodak [[Web]](http://r0k.us/graphics/kodak/)
