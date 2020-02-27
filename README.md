@@ -95,7 +95,7 @@ Check out the following collections of reproducible state-of-the-art algorithms:
  * Noise2Void [[Web]](https://github.com/juglab/n2v) [[Code]](https://github.com/juglab/n2v) [[PDF]](https://arxiv.org/abs/1811.10980)
    * Learning Denoising from Single Noisy Images (CVPR 2019), Krull et al.
  * Noise2Self [[Web]](https://github.com/czbiohub/noise2self) [[Code]](https://github.com/czbiohub/noise2self) [[PDF]](https://arxiv.org/abs/1811.10980)
-   * LNoise2Self: Blind Denoising by Self-Supervision (ICML 2019), Batson and Royer
+   * Noise2Self: Blind Denoising by Self-Supervision (ICML 2019), Batson and Royer
  * Self-Supervised Denoising [[Web]](https://github.com/NVlabs/selfsupervised-denoising) [[Code]](https://github.com/NVlabs/selfsupervised-denoising) [[PDF]](https://arxiv.org/abs/1901.10277)
    * High-Quality Self-Supervised Deep Image Denoising (NIPS 2019), Laine et al.   
    
@@ -110,8 +110,6 @@ Check out the following collections of reproducible state-of-the-art algorithms:
 ## Blind Denoising or Real Noise Removal 
  * RIDNet [[Web]](https://github.com/saeed-anwar/RIDNet) [[Code]](https://github.com/saeed-anwar/RIDNet) [[PDF]](https://arxiv.org/abs/1904.07396)
    * Real Image Denoising with Feature Attention (ICCV 2019), Anwar and Barnes.      
- * CBDNet [[Web]](https://github.com/GuoShi28/CBDNet) [[Code]](https://github.com/GuoShi28/CBDNet) [[PDF]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Guo_Toward_Convolutional_Blind_Denoising_of_Real_Photographs_CVPR_2019_paper.pdf)
-   * Real Image Denoising with Feature Attention (CVPR 2019), Guo et al. 
  * CBDNet [[Web]](https://github.com/GuoShi28/CBDNet) [[Code]](https://github.com/GuoShi28/CBDNet) [[PDF]](https://arxiv.org/pdf/1807.04686.pdf)
    * Toward Convolutional Blind Denoising of Real Photographs (CVPR 2019), Guo et al.  
  * VDNNet [[Web]](https://github.com/zsyOAOA/VDNet) [[Code]](https://github.com/zsyOAOA/VDNet) [[PDF]](https://arxiv.org/pdf/1908.11314v2.pdf)
