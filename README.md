@@ -88,6 +88,8 @@ Check out the following collections of reproducible state-of-the-art algorithms:
    * Fully Convolutional Pixel Adaptive Image Denoiser (ICCV 2019), Cha et al.  
  * FOCNet [[Web]](https://github.com/hsijiaxidian/FOCNet) [[Code]](https://github.com/hsijiaxidian/FOCNet) [[PDF]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Jia_FOCNet_A_Fractional_Optimal_Control_Network_for_Image_Denoising_CVPR_2019_paper.pdf)
    * FOCNet: A Fractional Optimal Control Network for Image Denoising (CVPR 2019), Jia et al.
+ * BUIFD [[Web]](https://github.com/IVRL/BUIFD) [[Code]](https://github.com/IVRL/BUIFD) [[PDF]](https://arxiv.org/abs/1907.03029)
+   * BUIFD: A Blind Universal Image Fusion Denoising Method with Noise Level Learning (TIP 2020), El Helou et al.
 
 #### Unsupervised / Weakly-Supervised Deep Denoising
  * Noise2Noise [[Web]](https://github.com/yu4u/noise2noise) [[TF Code]](https://github.com/NVlabs/noise2noise) [[Keras Unofficial Code]](https://github.com/yu4u/noise2noise) [[PDF]](https://arxiv.org/pdf/1803.04189.pdf)
