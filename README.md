@@ -99,7 +99,9 @@ Check out the following collections of reproducible state-of-the-art algorithms:
  * Noise2Self [[Web]](https://github.com/czbiohub/noise2self) [[Code]](https://github.com/czbiohub/noise2self) [[PDF]](https://arxiv.org/abs/1811.10980)
    * Noise2Self: Blind Denoising by Self-Supervision (ICML 2019), Batson and Royer
  * Self-Supervised Denoising [[Web]](https://github.com/NVlabs/selfsupervised-denoising) [[Code]](https://github.com/NVlabs/selfsupervised-denoising) [[PDF]](https://arxiv.org/abs/1901.10277)
-   * High-Quality Self-Supervised Deep Image Denoising (NIPS 2019), Laine et al.   
+* High-Quality Self-Supervised Deep Image Denoising (NIPS 2019), Laine et al.   
+* Noisy-As-Clean: Learning Unsupervised Denoising from the Corrupted Image [[Web]](https://github.com/csjunxu/Noisy-As-Clean-TIP2020)  [[PDF]](https://ieeexplore.ieee.org/document/9210208)
+* Self2Self With Dropout: Learning Self-Supervised Denoising From Single Image [[Web]](https://openaccess.thecvf.com/content_CVPR_2020/html/Quan_Self2Self_With_Dropout_Learning_Self-Supervised_Denoising_From_Single_Image_CVPR_2020_paper.html) [[Code]](https://github.com/scut-mingqinchen/self2self)
    
 #### Hybrid Model for Denoising
  * STROLLR [[PDF]](http://transformlearning.csl.illinois.edu/assets/Bihan/ConferencePapers/BihanICASSP2017strollr.pdf) [[Code]](https://github.com/wenbihan/strollr2d_icassp2017) 
